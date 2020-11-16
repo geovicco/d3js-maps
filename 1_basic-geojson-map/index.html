@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D3 COVID Chloropleth Map</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Import D3.js -->
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <!-- Import topoJSON script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js" integrity="sha512-4UKI/XKm3xrvJ6pZS5oTRvIQGIzZFoXR71rRBb1y2N+PbwAsKa5tPl2J6WvbEvwN3TxQCm8hMzsl/pO+82iRlg==" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Add a title to the Map -->
+    <h2 id="title">States of India</h2>
+    <!-- Add a description underneath the map title -->
+    <div id="description">
+        <!-- Heatmap showcasing the statewise pandemic status based on <a href="https://api.covid19india.org/data.json">COVID-19 India API</a> -->
+    </div>
+    <!-- SVG tag with an ID of canvas -->
+    <!-- This is where we will draw the map -->
+    <svg id="canvas">
+
+    </svg>
+    
+</body>
+<script defer src="script.js"></script>
+</html>
