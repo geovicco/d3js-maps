@@ -23,51 +23,37 @@ let drawMap = () => {
                 })
                 // console.log(state['Total'])
                 let total = state['Total']
-                console.log(total)
-                if (total <=100000) { //1 LAKHS
-                    return "#264653"
+                // console.log(total)
+                if (total <=1000000) { //1 Million (5 states)
+                    return "#95D5B2"
                 }
-                else if (total <=500000) { // 5 LAKHS
-                    return '#264653'
+                else if (total <=2000000) { // 2 million (6 states)
+                    return '#74C69D'
                 }
-                else if (total <=1000000) { // 1 MILLION
-                    return '#2A9D8F'
+                else if (total <=13000000) { // 13 Million (6 states)
+                    return '#52B788'
                 }
-                else if (total <=5000000) { // 5 MILLION
-                    return '#2A9D8F'
+                else if (total <=33000000) { // 33 MILLION
+                    return '#40916C'
                 }
-                else if (total <=10000000) { // 10 MILLION
-                    return '#E9C46A'
-                }
-                else if (total <=25000000) { // 25 MILLION
-                    return '#E9C46A'
-                }
-                else if (total <=50000000) { // 50 MILLION
-                    return '#F4A261'
-                }
-                else if (total <=75000000) { // 75 MILLION
-                    return 'limegreen'
+                else if (total <=62000000) { // 62 MILLION
+                    return '#2D6A4F'
                 }
                 else if (total <=100000000) { // 100 MILLION
-                    return '#E76F51'
-                }                                                
-                else if (total <=125000000) { // 125 MILLION
-                    return '#E76F51'
+                    return '#1B4332'
                 }
-                else if (total <=150000000) { // 150 MILLION
-                    return '#D00000'
-                }                              
+                else{ // > 100 MILLION
+                    return '#081C15'
+                }
             })
-            // .attr("fill", "grey") // the color of the state polygon
-            .style("opacity", 0.75)
+            .style("opacity", 0.8)
             .style("stroke", "black") // the color of state borders
-            .style("stroke-width", "0.2px") // The thickness of state borders
+            .style("stroke-width", "0.35px") // The thickness of state borders
             // Get text to show up when hovering over a particular state
             .append('title')
             .text((function(d) {
                 return d.properties.NAME_1 // Displays the State Name when mouse is hovered over a region of the map
             }))
-            
 }
 
 // Fetch Data from Topojson File
