@@ -1,0 +1,326 @@
+[
+  {
+    "State": "Andhra Pradesh",
+    "Area": 162968,
+    "Male": 42442146,
+    "Female": 42138631,
+    "Total": 49577103,
+    "Rural": 34966693,
+    "Urban": 14610410
+  },
+  {
+    "State": "Arunachal Pradesh",
+    "Area": 83743,
+    "Male": 713912,
+    "Female": 669815,
+    "Total": 1383727,
+    "Rural": 1066358,
+    "Urban": 317369
+  },
+  {
+    "State": "Assam",
+    "Area": 78438,
+    "Male": 15939443,
+    "Female": 15266133,
+    "Total": 31205576,
+    "Rural": 26807034,
+    "Urban": 4398542
+  },
+  {
+    "State": "Bihar",
+    "Area": 94163,
+    "Male": 54278157,
+    "Female": 49821295,
+    "Total": 104099452,
+    "Rural": 92341436,
+    "Urban": 11758016
+  },
+  {
+    "State": "Chhattisgarh",
+    "Area": 135192,
+    "Male": 12832895,
+    "Female": 12712303,
+    "Total": 25545198,
+    "Rural": 19607961,
+    "Urban": 5937237
+  },
+  {
+    "State": "Goa",
+    "Area": 3702,
+    "Male": 739140,
+    "Female": 719405,
+    "Total": 1458545,
+    "Rural": 551731,
+    "Urban": 906814
+  },
+  {
+    "State": "Gujarat",
+    "Area": 196244,
+    "Male": 31491260,
+    "Female": 28948432,
+    "Total": 60439692,
+    "Rural": 34694609,
+    "Urban": 25745083
+  },
+  {
+    "State": "Haryana",
+    "Area": 44212,
+    "Male": 13494734,
+    "Female": 11856728,
+    "Total": 25351462,
+    "Rural": 16509359,
+    "Urban": 8842103
+  },
+  {
+    "State": "Himachal Pradesh",
+    "Area": 55673,
+    "Male": 3481873,
+    "Female": 3382729,
+    "Total": 6864602,
+    "Rural": 6176050,
+    "Urban": 688552
+  },
+  {
+    "State": "Jammu and Kashmir",
+    "Area": 222236,
+    "Male": 6640662,
+    "Female": 5900640,
+    "Total": 12541302,
+    "Rural": 9108060,
+    "Urban": 3433242
+  },
+  {
+    "State": "Jharkhand",
+    "Area": 79716,
+    "Male": 16930315,
+    "Female": 16057819,
+    "Total": 32988134,
+    "Rural": 25055073,
+    "Urban": 7933061
+  },
+  {
+    "State": "Karnataka",
+    "Area": 191791,
+    "Male": 30966657,
+    "Female": 30128640,
+    "Total": 61095297,
+    "Rural": 37469335,
+    "Urban": 23625962
+  },
+  {
+    "State": "Kerala",
+    "Area": 38852,
+    "Male": 16027412,
+    "Female": 17378649,
+    "Total": 33406061,
+    "Rural": 17471135,
+    "Urban": 15934926
+  },
+  {
+    "State": "Madhya Pradesh",
+    "Area": 308252,
+    "Male": 37612306,
+    "Female": 35014503,
+    "Total": 72626809,
+    "Rural": 52557404,
+    "Urban": 20069405
+  },
+  {
+    "State": "Maharashtra",
+    "Area": 307713,
+    "Male": 58243056,
+    "Female": 54131277,
+    "Total": 112374333,
+    "Rural": 61556074,
+    "Urban": 50818259
+  },
+  {
+    "State": "Manipur",
+    "Area": 22327,
+    "Male": 1438586,
+    "Female": 1417208,
+    "Total": 2855794,
+    "Rural": 2021640,
+    "Urban": 834154
+  },
+  {
+    "State": "Meghalaya",
+    "Area": 22429,
+    "Male": 1491832,
+    "Female": 1475057,
+    "Total": 2966889,
+    "Rural": 2371439,
+    "Urban": 595450
+  },
+  {
+    "State": "Mizoram",
+    "Area": 21081,
+    "Male": 555339,
+    "Female": 541867,
+    "Total": 1097206,
+    "Rural": 525435,
+    "Urban": 571771
+  },
+  {
+    "State": "Nagaland",
+    "Area": 16579,
+    "Male": 1024649,
+    "Female": 953853,
+    "Total": 1978502,
+    "Rural": 1407536,
+    "Urban": 570966
+  },
+  {
+    "State": "Orissa",
+    "Area": 155707,
+    "Male": 21212136,
+    "Female": 20762082,
+    "Total": 41974218,
+    "Rural": 34970562,
+    "Urban": 7003656
+  },
+  {
+    "State": "Punjab",
+    "Area": 50362,
+    "Male": 14639465,
+    "Female": 13103873,
+    "Total": 27743338,
+    "Rural": 17344192,
+    "Urban": 10399146
+  },
+  {
+    "State": "Rajasthan",
+    "Area": 342239,
+    "Male": 35550997,
+    "Female": 32997440,
+    "Total": 68548437,
+    "Rural": 51500352,
+    "Urban": 17048085
+  },
+  {
+    "State": "Sikkim",
+    "Area": 7096,
+    "Male": 323070,
+    "Female": 287507,
+    "Total": 610577,
+    "Rural": 456999,
+    "Urban": 153578
+  },
+  {
+    "State": "Tamil Nadu",
+    "Area": 130060,
+    "Male": 36137975,
+    "Female": 36009055,
+    "Total": 72147030,
+    "Rural": 37229590,
+    "Urban": 34917440
+  },
+  {
+    "State": "Telangana",
+    "Area": 112077,
+    "Male": 17612000,
+    "Female": 17392000,
+    "Total": 35003674,
+    "Rural": 21395009,
+    "Urban": 13608665
+  },
+  {
+    "State": "Tripura",
+    "Area": 10486,
+    "Male": 1874376,
+    "Female": 1799541,
+    "Total": 3673917,
+    "Rural": 2712464,
+    "Urban": 961453
+  },
+  {
+    "State": "Uttar Pradesh",
+    "Area": 240928,
+    "Male": 104480510,
+    "Female": 95331831,
+    "Total": 199812341,
+    "Rural": 155317278,
+    "Urban": 44495063
+  },
+  {
+    "State": "Uttaranchal",
+    "Area": 53483,
+    "Male": 5137773,
+    "Female": 4948519,
+    "Total": 10086292,
+    "Rural": 7036954,
+    "Urban": 3049338
+  },
+  {
+    "State": "West Bengal",
+    "Area": 88752,
+    "Male": 46809027,
+    "Female": 44467088,
+    "Total": 91276115,
+    "Rural": 62183113,
+    "Urban": 29093002
+  },
+  {
+    "State": "Andaman and Nicobar",
+    "Area": 8249,
+    "Male": 202871,
+    "Female": 177710,
+    "Total": 380581,
+    "Rural": 237093,
+    "Urban": 143488
+  },
+  {
+    "State": "Chandigarh",
+    "Area": 114,
+    "Male": 580663,
+    "Female": 474787,
+    "Total": 1055450,
+    "Rural": 28991,
+    "Urban": 1026459
+  },
+  {
+    "State": "Delhi",
+    "Area": 1483,
+    "Male": 8987326,
+    "Female": 7800615,
+    "Total": 16787941,
+    "Rural": 419042,
+    "Urban": 16368899
+  },
+  {
+    "State": "Lakshadweep",
+    "Area": 30,
+    "Male": 33123,
+    "Female": 31350,
+    "Total": 64473,
+    "Rural": 14141,
+    "Urban": 50332
+  },
+  {
+    "State": "Puducherry",
+    "Area": 490,
+    "Male": 612511,
+    "Female": 635442,
+    "Total": 1247953,
+    "Rural": 395200,
+    "Urban": 852753
+  },
+  {
+    "State": "Dadra and Nagar Haveli",
+    "Area": 491,
+    "Male": 193760,
+    "Female": 149949,
+    "Total": 343709,
+    "Rural": 183114,
+    "Urban": 160595
+  },
+  {
+    "State": "Daman and Diu",
+    "Area": 111,
+    "Male": 150301,
+    "Female": 92946,
+    "Total": 243247,
+    "Rural": 60396,
+    "Urban": 182852
+  }
+]
