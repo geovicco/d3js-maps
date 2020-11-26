@@ -6,6 +6,7 @@ let statesData
 let popData
 
 let canvas = d3.select('#canvas')
+let tooltip = d3.select('#tooltip')
 
 var projection = d3.geoMercator().scale(1220).center([78, 26]) // Scale is used to zoom into the features and center is used to set the center lat lon on the canvas
 
@@ -19,7 +20,7 @@ let drawMap = () => {
             .attr("fill", (statesDataItem) => {
                 let id = statesDataItem.properties['NAME_1']
                 let state = popData.find((item) => {
-                    return item['State'] == id 
+                    return item['State'] === id 
                 })
                 // console.log(state['Total'])
                 let total = state['Total']
@@ -54,6 +55,17 @@ let drawMap = () => {
             .text((function(d) {
                 return d.properties.NAME_1 // Displays the State Name when mouse is hovered over a region of the map
             }))
+            .on('mouseover', (statesDataItem)=>{
+                tooltip.transition()
+                    .style('visibility', 'visible')
+                let id = statesDataItem.properties['NAME_1']
+                let state = popData.find((item) => {
+                     return item['State'] === id 
+            })
+                
+            // Add text to tooltip
+            tooltip.text(state['Total'])
+            })
 }
 
 // Fetch Data from Topojson File

@@ -18,3 +18,9 @@ svg {
     min-height: 700px;
     fill: steelblue;
 }
+
+#tooltip {
+    visibility: hidden;
+    height: auto;
+    width: auto;
+}
